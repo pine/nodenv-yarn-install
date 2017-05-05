@@ -26,5 +26,8 @@ Installed Yarn 0.20.3
 
 Enjoy!
 
+## See also
+- [Qiita: ndenv で Node.js をインストールする際、同時に Yarn もインストールする方法](http://qiita.com/pine613/items/d758aede73e388c7b57a) (Japanese)
+
 ## License
 MIT &copy; Pine Mizune
