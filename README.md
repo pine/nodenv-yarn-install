@@ -6,10 +6,21 @@ Automatically install [Yarn](https://github.com/yarnpkg/yarn) after `ndenv insta
 ## Getting started
 First, install this plugin in your computer.
 
+### For Bash, Zsh users
+
 ```
 $ mkdir -p "$(ndenv root)/plugins"
 $ git clone https://github.com/pine/ndenv-yarn-install.git "$(ndenv root)/plugins/ndenv-yarn-install"
 ```
+
+### For Fish users
+
+```
+$ mkdir -p "(ndenv root)/plugins"
+$ git clone https://github.com/pine/ndenv-yarn-install.git "(ndenv root)/plugins/ndenv-yarn-install"
+```
+
+---
 
 Let's install your favorite Node v4.0.0 or later!
 
