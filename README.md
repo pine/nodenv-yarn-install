@@ -16,7 +16,7 @@ $ git clone https://github.com/pine/ndenv-yarn-install.git "$(ndenv root)/plugin
 ### For fish users
 
 ```
-$ mkdir -p "(ndenv root)/plugins"
+$ mkdir -p (ndenv root)"/plugins"
 $ git clone https://github.com/pine/ndenv-yarn-install.git "(ndenv root)/plugins/ndenv-yarn-install"
 ```
 
