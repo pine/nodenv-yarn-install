@@ -1,7 +1,7 @@
-ndenv-yarn-install
-------------------
+nodenv-yarn-install
+-------------------
 
-Automatically install [Yarn](https://github.com/yarnpkg/yarn) after `ndenv install`.
+Automatically install [Yarn](https://github.com/yarnpkg/yarn) after `nodenv install`.
 
 ## Getting started
 First, install this plugin in your computer.
@@ -9,15 +9,15 @@ First, install this plugin in your computer.
 ### For Bash, Zsh users
 
 ```
-$ mkdir -p "$(ndenv root)/plugins"
-$ git clone https://github.com/pine/ndenv-yarn-install.git "$(ndenv root)/plugins/ndenv-yarn-install"
+$ mkdir -p "$(nodenv root)/plugins"
+$ git clone https://github.com/pine/nodenv-yarn-install.git "$(nodenv root)/plugins/nodenv-yarn-install"
 ```
 
 ### For fish users
 
 ```
-$ mkdir -p (ndenv root)"/plugins"
-$ git clone https://github.com/pine/ndenv-yarn-install.git "(ndenv root)/plugins/ndenv-yarn-install"
+$ mkdir -p (nodenv root)"/plugins"
+$ git clone https://github.com/pine/nodenv-yarn-install.git (nodenv root)"/plugins/nodenv-yarn-install"
 ```
 
 ---
@@ -25,20 +25,26 @@ $ git clone https://github.com/pine/ndenv-yarn-install.git "(ndenv root)/plugins
 Let's install your favorite Node v4.0.0 or later!
 
 ```
-$ ndenv install v7.5.0
-Downloading node-v7.5.0-darwin-x64.tar.gz...
--> https://nodejs.org/dist/v7.5.0/node-v7.5.0-darwin-x64.tar.gz
-Installing node-v7.5.0-darwin-x64...
-Installed node-v7.5.0-darwin-x64 to /Users/pine/.anyenv/envs/ndenv/versions/v7.5.0
+$ nodenv install 10.15.1
+Downloading node-v10.15.1-darwin-x64.tar.gz...
+-> https://nodejs.org/dist/v10.15.1/node-v10.15.1-darwin-x64.tar.gz
+Installing node-v10.15.1-darwin-x64...
+Installed node-v10.15.1-darwin-x64 to /Users/pine/.anyenv/envs/nodenv/versions/10.15.1
 
+Installed default packages for 10.15.1
 Installing Yarn...
-Installed Yarn 0.20.3
+/Users/pine/.anyenv/envs/nodenv/versions/10.15.1/bin/yarn -> /Users/pine/.anyenv/envs/nodenv/versions/10.15.1/lib/node_modules/yarn/bin/yarn.js
+/Users/pine/.anyenv/envs/nodenv/versions/10.15.1/bin/yarnpkg -> /Users/pine/.anyenv/envs/nodenv/versions/10.15.1/lib/node_modules/yarn/bin/yarn.js
++ yarn@1.13.0
+added 1 package in 0.969s
+
+Installed Yarn 1.13.0
 ```
 
 Enjoy!
 
 ## See also
-- [Qiita: ndenv で Node.js をインストールする際、同時に Yarn もインストールする方法](http://qiita.com/pine613/items/d758aede73e388c7b57a) (Japanese)
+- [ndenv-yarn-install](https://github.com/pine/ndenv-yarn-install)
 
 ## License
 MIT &copy; Pine Mizune
