@@ -43,8 +43,10 @@ Installed Yarn 1.13.0
 
 Enjoy!
 
-## See also
+## Related projects
+If you use ndenv, please use the following instead this.
+
 - [ndenv-yarn-install](https://github.com/pine/ndenv-yarn-install)
 
 ## License
-MIT &copy; Pine Mizune
+MIT &copy; [Pine Mizune](https://profile.pine.moe)
