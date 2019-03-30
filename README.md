@@ -48,5 +48,8 @@ If you use ndenv, please use the following instead this.
 
 - [ndenv-yarn-install](https://github.com/pine/ndenv-yarn-install)
 
+## See also
+- [Qiita: ndenv / nodenv で Node.js をインストールする際、同時に Yarn もインストールする方法](http://qiita.com/pine613/items/d758aede73e388c7b57a) (Japanese)
+
 ## License
 MIT &copy; [Pine Mizune](https://profile.pine.moe)
